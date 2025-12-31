@@ -20,7 +20,7 @@ filterButtons.forEach(button => {
             if (filter === 'all' || item.classList.contains(filter)) {
                 item.style.display = 'block';
             } else {
-                item.style.display = 'grid'/'none';
+                item.style.display = 'none';
             }
         });
     });
